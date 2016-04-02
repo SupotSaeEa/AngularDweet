@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name"            : "ng-Mqtt",
+  "description"     : "Mqtt with ESP8266",
+  "short_name"      : "ng-Mqtt",
+  "version"         : "0.1",
+  "author"          : "Supot Sae-Ea",
+  "app"             : {
+    "background": {
+      "scripts": ["app/background.js"]
+    }
+  },
+  "permissions"     : [
+    "storage"
+  ],
+  "offline_enabled": true
+}
